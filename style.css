@@ -1,0 +1,42 @@
+.contacto h2, .contacto h3 {
+    /* Estilos para los títulos en la sección de contacto */
+  }
+  
+  .contacto p {
+    /* Estilos para los párrafos */
+  }
+  
+  .contacto button {
+    /* Estilos para el botón de contacto */
+  }
+  
+  .contacto a:hover {
+    /* Estilos para cuando el cursor pasa sobre los enlaces */
+  }
+
+  .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3877c5; /* Color oficial de WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .floating-button img {
+    width: 24px;
+    margin-right: 8px;
+  }
+
+  .floating-button:hover {
+    background-color: #128c7e;
+  }
+
+  
